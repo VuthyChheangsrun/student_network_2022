@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(208, 204, 204);
+}
+
+.Screen{
+    width: 450px;
+    height: 800px;
+    background-color: rgb(113, 107, 107);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-style:dotted;
+    border-width: 1px;
+    border-color: rgb(255, 0, 119);
+}
+
+.header{
+    width: 430px;
+    padding: 10px;
+    background-color: rgb(52, 165, 193);
+    justify-content: center;
+    display: flex;
+    float: left;
+    
+}
+
+#pfpSide{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+#notiSide{
+    width: 50%;
+    justify-content: right;
+    display: flex;
+    align-items: center;
+    column-gap: 2em;
+    padding-right: 1em;
+}
+
+#pfp{
+    width: 3em;
+    height: 3em;
+    border-radius: 150px;
+}
+
+.content{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 670px;
+}
+
+.downMenu{
+    width: 420px;
+    background-color: rgb(196, 196, 196);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4.5em;
+}
+
+.post{
+    padding: 20px;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-color: rgb(0, 0, 0);
+}
+
+.contentMenu{
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(212, 212, 212);
+    line-height: 40px;
+}
+#postMenu{
+    background-color: rgb(62, 102, 110);
+    -webkit-text-fill-color: white;
+}
+
+
+.headPost{
+    display: flex;
+    justify-content: left;
+    column-gap: 10px;
+    
+}
+
+.hText{
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+.postText{
+    width: 100%;
+    padding: 10px;
+}
+
+.postImage{
+    width: 100%;
+}
+
+.imgPost{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.postImage2{
+    width: 100%;
+    height: 10s0px;
+    overflow: hidden;
+}
+
+.imgPost2{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: -100px;
+}
